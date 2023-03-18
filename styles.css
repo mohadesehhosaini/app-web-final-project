@@ -1,0 +1,119 @@
+body {
+    width: 100%;
+    background-color: rgba(72, 83, 83, 0.795);
+}
+
+
+.nav-bar {
+    box-shadow: 0px 5px 5px antiquewhite;
+	display: flex;
+	justify-content: end;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgb(72, 83, 83);
+	width: 100%;
+    z-index: 1; 
+}
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: 1px solid rgb(72, 83, 83);
+    font-family: sans-serif;
+    width: 15%;
+    text-align: center;
+}
+.nav-bar a:hover {
+    color: antiquewhite;
+    border-bottom: 1px solid antiquewhite;
+    margin: 2px;
+    font-weight: bold;
+}
+.nav-bar img {
+       width: 40px;
+       height: 30px;
+       margin-right: 200px;
+}
+.header {
+     width: 100%;
+     background-color: antiquewhite;
+     margin-top: 50px;
+     border-radius: 5px;
+  
+}
+.header h1{
+    padding: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.content {
+    width: 75%;
+    height: 45%;
+    background-color: antiquewhite;
+    border: 2px solid rgb(72, 83, 83);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home-1 {
+    display: flex;
+}
+.images {
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 50%;
+    height: 50%;
+}
+img {
+    width: 100%;
+    min-width: 20px;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 8%;
+}
+.text-2 {
+    /* width: 30%; */
+    margin-top: 50px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.text-3 {
+    /* width: 10%; */
+    min-width: 40%;
+    padding: 20px;
+    width: 250px;
+    font-family: sans-serif;
+  margin-left: 5%;
+}
+.home-2 {
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+ a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(79, 168, 168);
+}
+ .form-hover:hover {
+      color: rgb(72, 83, 83);
+      font-family: cursive;
+    }
+h4 {
+    padding: 10px;
+    margin-left: 12px;
+    margin-top: 60px;
+}
+.fotter {
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}

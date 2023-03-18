@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>library form</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <style>
+form {
+    width: 70%;
+    height: 700px;
+    background-color: antiquewhite;
+    border: 2px solid rgb(72, 83, 83);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.form-1 {
+    font-family: sans-serif;
+}
+.form-2 {
+   width: 95%;
+   padding: 3px;
+   border: 2px solid rgb(72, 83, 83);
+   border-radius: 10px;
+}
+#textform {
+    padding: 30px;
+}
+#question {
+    padding: 30px;
+   font-family: sans-serif;
+}
+.submit-1 {
+    background-color: rgb(72, 83, 83);
+    color: white;
+    border-radius: 5px;
+    font-family: sans-serif;
+    padding: 3px;
+    width: 80px;
+    margin-top: 80px;
+}
+
+    </style>
+    </head>
+    <body>
+        <div class="nav-bar">
+            <a href="index.html">Home</a>
+            <a href="library.html">Library</a>
+            <a href="help.html">Help</a> 
+          </div>
+          <div class="header"><h1>My Library📚</h1></div>
+          <div><form action="sumit.html" method="get">
+                 <div id="textform">
+                <label for=" full name" class="form-1">Full Name:</label>
+                <div><input type="text" id="fullname" name="name"  class="form-2" value="" placeholder="Type Your Full Name" required></div><br>
+                <label for="age" class="form-1">Age:</label>
+                <div><input type="number" id="age" name="age" class="form-2" value="" placeholder="Type Your Age" required></div><br>
+                <label for="email" class="form-1">Email Address:</label>
+                <div><input type="email" id="email" name="email"  class="form-2" value="" placeholder="Type Your Email" required></div><br>
+                <label for="country" class="form-1">Country:</label>
+                <div><input type="country" id="country" name="country" class="form-2" value="" placeholder="Type Your Country"></div>
+                </div>
+                <div id="question">
+                 <ol><label><li><p>Do you read books out of interest or just for fun?</p></li></label>
+                  <input type="radio" id="fun" name="choice-one" value="fun" required>
+                  <label for="fun">Fun</label>
+                  <input type="radio" id="interest" name="choice-one" value="interest"required>
+                  <label for="interest">interest</label>
+                  <label><li><p>Are you interested in writing?</p></li></label>
+                  <input type="radio" id="yes" name="choice" value="yes" required>
+                  <label for="yes">Yes</label>
+                  <input type="radio" id="no" name="choice" value="no" required>
+                  <label for="no">No</label>
+                  <label><li><p>Have you ever written?</p></li></label>
+                  <input type="radio" id="yes" name="choice-select" value="yes" required>
+                  <label for="yes">Yes</label>
+                  <input type="radio" id="no" name="choice-select" value="no" required>
+                  <label for="no">No</label></ol>
+                  </div>
+                  <center><button for="submit" class="submit-1">submit</button></center>
+                </form></div>
+           
+
+
+
+          <div class="fotter">
+            Made By Mohaddesa Hosaini
+          </div>
+         
+    </body>
+</html>
